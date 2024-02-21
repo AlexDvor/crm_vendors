@@ -1,3 +1,4 @@
+import Button from './components/Button/Button';
 import StatusLabel, { Status } from './components/StatusLabel/StatusLabel';
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <StatusLabel status={Status.NotActive}>NotActive</StatusLabel>
       <StatusLabel status={Status.Pending}>Pending</StatusLabel>
       <StatusLabel status={Status.Suspended}>Suspended</StatusLabel>
+      <Button></Button>
     </main>
   );
 }
