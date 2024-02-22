@@ -1,4 +1,4 @@
-import AddCompanyButton from './components/Form/AddCompanyBtn';
+import AddCompanyButton from '@components/Form/AddCompanyBtn';
 
 export default function Home() {
   return (
