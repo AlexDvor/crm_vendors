@@ -16,9 +16,7 @@ const Button: FC<ButtonProps> = ({ disabled, ...rest }) => {
         !disabled && 'hover:bg-gray-800 active:bg-gray-950',
         disabled && 'text-zinc-100',
       )}
-    >
-      Click Me
-    </button>
+    ></button>
   );
 };
 
