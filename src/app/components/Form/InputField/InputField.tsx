@@ -1,12 +1,13 @@
 'use client';
 
-import { Field } from 'formik';
+import { Field, FieldAttributes } from 'formik';
 import React, { FC } from 'react';
 
-interface InputFieldProps {
+export interface InputFieldProps
+  extends React.InputHTMLAttributes<HTMLInputElement>,
+    Pick<FieldAttributes<string>, 'as'> {
   label?: string;
 }
-
 const InputField: FC<InputFieldProps> = ({ label, id, ...rest }) => {
   return (
     <div className="flex flex-col">
