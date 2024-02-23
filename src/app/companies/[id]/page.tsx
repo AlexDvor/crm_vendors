@@ -9,7 +9,7 @@ interface PageProps {
 export default function Page({ params }: PageProps) {
   return (
     <>
-      <Header>Companies </Header>
+      <Header>Companies({params.id}) </Header>
     </>
   );
 }
