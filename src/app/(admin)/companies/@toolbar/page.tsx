@@ -1,4 +1,4 @@
-import AddCompanyButton from '@components/Form/AddCompanyBtn';
+import AddCompanyButton from '@components/Company/AddCompanyButton';
 import SearchInput from '@components/SearchInput/SearchInput';
 import Toolbar from '@components/ToolBar/ToolBar';
 import React from 'react';
