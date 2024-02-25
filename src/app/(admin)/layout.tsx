@@ -1,7 +1,7 @@
-import Sidebar from '@components/Sidebar/Sidebar';
-import React, { FC } from 'react';
+import React from 'react';
+import Sidebar from '@/app/components/sidebar';
 
-interface LayoutProps {
+export interface LayoutProps {
   children: React.ReactNode;
 }
 
