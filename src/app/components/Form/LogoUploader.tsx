@@ -9,6 +9,7 @@ interface LogoUploaderProps
   label?: string;
   square?: boolean;
   placeholder: string;
+  id?: string;
 }
 
 const LogoUploader: FC<LogoUploaderProps> = ({

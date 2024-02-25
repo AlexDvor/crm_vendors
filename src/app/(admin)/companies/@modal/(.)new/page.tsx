@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import CompanyFormModal from '@components/Form/CompanyFormModal';
+import CompanyFormModal from '@components/Company/CompanyFormModal';
 
 export interface PageProps {}
 

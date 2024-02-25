@@ -58,14 +58,13 @@ export default function CompanyForm({ onSubmit }: CompanyFormProps) {
       });
     },
   });
-
   const handleSubmit = async (values: CompanyFieldValues) => {
     await mutateAsync({
       ...values,
       categoryTitle:
-        categories.find(({ id }) => id === values.categoryId)?.title ?? '',
+        categories?.find(({ id }) => id === values.categoryId)?.title ?? '',
       countryTitle:
-        countries.find(({ id }) => id === values.countryId)?.title ?? '',
+        countries?.find(({ id }) => id === values.countryId)?.title ?? '',
     });
 
     if (onSubmit) {
