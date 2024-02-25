@@ -1,5 +1,5 @@
-import CompanyRow from '@components/CompanyRow/CompanyRow';
-import CompanyTable from '@components/CompanyTable/CompanyTable';
+import CompanyRow from '@components/Company/CompanyRow';
+import CompanyTable from '@components/Company/CompanyTable';
 import { Status } from '@components/StatusLabel/StatusLabel';
 import React from 'react';
 
