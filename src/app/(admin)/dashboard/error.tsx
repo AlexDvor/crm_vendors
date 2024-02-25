@@ -1,7 +1,7 @@
 'use client';
 
+import Button from '@components/Button/Button';
 import React from 'react';
-import Button from '@/app/components/button';
 
 export interface ErrorComponentProps {
   error: Error;
